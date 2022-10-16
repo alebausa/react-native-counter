@@ -4,12 +4,14 @@ import { SafeAreaView } from 'react-native';
 // import { CounterScreen } from './src/screens/CounterScreen';
 // import { BOMScreen } from './src/screens/BOMScreen';
 // import { DimensionsScreen } from './src/screens/DimensionsScreen';
-import { PositionScreen } from './src/screens/PositionScreen';
+// import { PositionScreen } from './src/screens/PositionScreen';
+// import { FlexScreen } from './src/screens/FlexScreen';
+import { TaskScreen } from './src/screens/TaskScreen';
 
 export const App = () => {
   return (
-    <SafeAreaView style={{ flex: 1 }}>
-      <PositionScreen/>
+    <SafeAreaView style={{ flex: 1, backgroundColor: '#28425B' }}>
+      <TaskScreen/>
     </SafeAreaView>
   ) 
 }
